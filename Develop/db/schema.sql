@@ -6,6 +6,10 @@ CREATE DATABASE ecommerce_db;
 USE ecommerce_db;
 
 CREATE TABLE category (
-    id INT NOT NULL
-    PRI
-)
+    id INT NOT NULL,
+    PRIMARY KEY (id),
+    AUTO_INCREMENT,
+    category_name varchar(100)
+);
+
+
